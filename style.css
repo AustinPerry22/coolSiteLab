@@ -1,3 +1,86 @@
-*{
+/* * {
     outline: 1px dotted black;
+} */
+
+:root {
+    --background: #061130;
+    --lightBlue: #1C4BC4;
+    --light: #F4F6F8;
+    --yellow: #FAFD61;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+#logo {
+    margin-right: 70%;
+}
+
+#mainText {
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 25%;
+}
+
+#service {
+    color: var(--yellow);
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--light);
+}
+
+header {
+    background-color: var(--background);
+}
+
+header a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+main {
+    text-align: left;
+    background-color: var(--background);
+    padding: 10% 5%;
+    color: var(--light);
+}
+
+footer {
+    padding-bottom: 1.5%;
+}
+
+footer div:first-child {
+    background-color: white;
+    padding: 1% 0%;
+}
+
+button {
+    color: var(--light);
+    background-color: var(--lightBlue);
+    border: none;
+    border-radius: .5em;
+}
+
+a,
+button {
+    padding: 1em;
+    margin: 0% 1%;
+}
+
+a {
+    color: var(--lightBlue);
 }
